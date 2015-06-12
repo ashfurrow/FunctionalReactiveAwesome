@@ -103,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				5E35A5701B2A5F52009DA2A7 /* AppDelegate.swift */,
-				5E35A5A11B2A7C0D009DA2A7 /* API.swift */,
 				5E35A5951B2A6302009DA2A7 /* View Controllers */,
 				5E35A5961B2A681B009DA2A7 /* Extensions */,
+				5E35A5A91B2AAC7E009DA2A7 /* Networking */,
 				5E35A5921B2A62EE009DA2A7 /* Interface */,
 				5E35A56E1B2A5F52009DA2A7 /* Supporting Files */,
 			);
@@ -168,6 +168,14 @@
 				5E35A5A31B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5E35A5A91B2AAC7E009DA2A7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5E35A5A11B2A7C0D009DA2A7 /* API.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 		655954E44DAE3D894BAB1CE0 /* Frameworks */ = {

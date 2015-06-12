@@ -21,11 +21,6 @@ class SignupDemoViewController: UIViewController {
             >- signupButton.rx_subscribeEnabledTo
             >- disposeBag.addDisposable
 
-        let signupSignal = combineLatest(emailAddressTextField.rx_text, passwordTextField.rx_text) { (email, password) -> Observable<MoyaResponse> in
-                return api.request(.Signup(email: email, password: password))
-            } >- switchLatest
-
-
         signupButton.rx_tap
             >- signup
             >- display("OK")
