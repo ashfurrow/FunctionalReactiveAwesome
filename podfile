@@ -5,12 +5,9 @@ use_frameworks!
 
 target 'FunctionalReactiveAwesome' do
 
+pod 'RxCocoa'
 pod 'RxSwift'
 pod 'Moya/RxSwift'
+pod 'SVProgressHUD'
 
 end
-
-target 'FunctionalReactiveAwesomeTests' do
-
-end
-

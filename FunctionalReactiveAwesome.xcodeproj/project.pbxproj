@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		543496DB2A44BEEF6A8B118E /* Pods_FunctionalReactiveAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80CA99D474996B53B22881 /* Pods_FunctionalReactiveAwesome.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5E35A5711B2A5F52009DA2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5701B2A5F52009DA2A7 /* AppDelegate.swift */; };
-		5E35A5731B2A5F52009DA2A7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5721B2A5F52009DA2A7 /* MasterViewController.swift */; };
-		5E35A5751B2A5F52009DA2A7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5741B2A5F52009DA2A7 /* DetailViewController.swift */; };
 		5E35A5781B2A5F52009DA2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E35A5761B2A5F52009DA2A7 /* Main.storyboard */; };
 		5E35A57A1B2A5F52009DA2A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E35A5791B2A5F52009DA2A7 /* Images.xcassets */; };
 		5E35A57D1B2A5F52009DA2A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E35A57B1B2A5F52009DA2A7 /* LaunchScreen.xib */; };
 		5E35A5891B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5881B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.swift */; };
+		5E35A5941B2A62FF009DA2A7 /* EmailValidationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5931B2A62FF009DA2A7 /* EmailValidationDemoViewController.swift */; };
+		5E35A5981B2A6828009DA2A7 /* UIControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5971B2A6828009DA2A7 /* UIControl+Rx.swift */; };
+		5E35A59A1B2A68E4009DA2A7 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5991B2A68E4009DA2A7 /* Validation.swift */; };
+		5E35A59C1B2A6BF4009DA2A7 /* SignupDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A59B1B2A6BF4009DA2A7 /* SignupDemoViewController.swift */; };
+		5E35A59E1B2A6E4A009DA2A7 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A59D1B2A6E4A009DA2A7 /* Operators.swift */; };
+		5E35A5A01B2A75FE009DA2A7 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A59F1B2A75FE009DA2A7 /* UIViewController+Extensions.swift */; };
+		5E35A5A21B2A7C0D009DA2A7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5A11B2A7C0D009DA2A7 /* API.swift */; };
+		5E35A5A41B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5A31B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift */; };
+		5E35A5A61B2A9FC3009DA2A7 /* NetworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5A51B2A9FC3009DA2A7 /* NetworkDemoViewController.swift */; };
+		5E35A5A81B2AA135009DA2A7 /* NetworkDemoViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5A71B2AA135009DA2A7 /* NetworkDemoViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +39,22 @@
 		5E35A56B1B2A5F52009DA2A7 /* FunctionalReactiveAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalReactiveAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E35A56F1B2A5F52009DA2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E35A5701B2A5F52009DA2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E35A5721B2A5F52009DA2A7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		5E35A5741B2A5F52009DA2A7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5E35A5771B2A5F52009DA2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E35A5791B2A5F52009DA2A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E35A57C1B2A5F52009DA2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5E35A5821B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalReactiveAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E35A5871B2A5F52009DA2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E35A5881B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalReactiveAwesomeTests.swift; sourceTree = "<group>"; };
+		5E35A5931B2A62FF009DA2A7 /* EmailValidationDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationDemoViewController.swift; sourceTree = "<group>"; };
+		5E35A5971B2A6828009DA2A7 /* UIControl+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Rx.swift"; sourceTree = "<group>"; };
+		5E35A5991B2A68E4009DA2A7 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		5E35A59B1B2A6BF4009DA2A7 /* SignupDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDemoViewController.swift; sourceTree = "<group>"; };
+		5E35A59D1B2A6E4A009DA2A7 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		5E35A59F1B2A75FE009DA2A7 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		5E35A5A11B2A7C0D009DA2A7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5E35A5A31B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignupDemoViewController+Extensions.swift"; sourceTree = "<group>"; };
+		5E35A5A51B2A9FC3009DA2A7 /* NetworkDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDemoViewController.swift; sourceTree = "<group>"; };
+		5E35A5A71B2AA135009DA2A7 /* NetworkDemoViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkDemoViewController+Extensions.swift"; sourceTree = "<group>"; };
 		7E80CA99D474996B53B22881 /* Pods_FunctionalReactiveAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalReactiveAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD91BEFEEFE75B914B6D271F /* Pods-FunctionalReactiveAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactiveAwesome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome.debug.xcconfig"; sourceTree = "<group>"; };
 		B8E8F877A228159A387EB52F /* Pods-FunctionalReactiveAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactiveAwesome.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,11 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				5E35A5701B2A5F52009DA2A7 /* AppDelegate.swift */,
-				5E35A5721B2A5F52009DA2A7 /* MasterViewController.swift */,
-				5E35A5741B2A5F52009DA2A7 /* DetailViewController.swift */,
-				5E35A5761B2A5F52009DA2A7 /* Main.storyboard */,
-				5E35A5791B2A5F52009DA2A7 /* Images.xcassets */,
-				5E35A57B1B2A5F52009DA2A7 /* LaunchScreen.xib */,
+				5E35A5A11B2A7C0D009DA2A7 /* API.swift */,
+				5E35A5951B2A6302009DA2A7 /* View Controllers */,
+				5E35A5961B2A681B009DA2A7 /* Extensions */,
+				5E35A5921B2A62EE009DA2A7 /* Interface */,
 				5E35A56E1B2A5F52009DA2A7 /* Supporting Files */,
 			);
 			path = FunctionalReactiveAwesome;
@@ -120,6 +135,39 @@
 				5E35A5871B2A5F52009DA2A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E35A5921B2A62EE009DA2A7 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5E35A5761B2A5F52009DA2A7 /* Main.storyboard */,
+				5E35A5791B2A5F52009DA2A7 /* Images.xcassets */,
+				5E35A57B1B2A5F52009DA2A7 /* LaunchScreen.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		5E35A5951B2A6302009DA2A7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E35A5931B2A62FF009DA2A7 /* EmailValidationDemoViewController.swift */,
+				5E35A5A51B2A9FC3009DA2A7 /* NetworkDemoViewController.swift */,
+				5E35A59B1B2A6BF4009DA2A7 /* SignupDemoViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5E35A5961B2A681B009DA2A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E35A5971B2A6828009DA2A7 /* UIControl+Rx.swift */,
+				5E35A5991B2A68E4009DA2A7 /* Validation.swift */,
+				5E35A59D1B2A6E4A009DA2A7 /* Operators.swift */,
+				5E35A59F1B2A75FE009DA2A7 /* UIViewController+Extensions.swift */,
+				5E35A5A71B2AA135009DA2A7 /* NetworkDemoViewController+Extensions.swift */,
+				5E35A5A31B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		655954E44DAE3D894BAB1CE0 /* Frameworks */ = {
@@ -290,9 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E35A5751B2A5F52009DA2A7 /* DetailViewController.swift in Sources */,
-				5E35A5731B2A5F52009DA2A7 /* MasterViewController.swift in Sources */,
+				5E35A59C1B2A6BF4009DA2A7 /* SignupDemoViewController.swift in Sources */,
+				5E35A5981B2A6828009DA2A7 /* UIControl+Rx.swift in Sources */,
+				5E35A5A61B2A9FC3009DA2A7 /* NetworkDemoViewController.swift in Sources */,
 				5E35A5711B2A5F52009DA2A7 /* AppDelegate.swift in Sources */,
+				5E35A5A01B2A75FE009DA2A7 /* UIViewController+Extensions.swift in Sources */,
+				5E35A59A1B2A68E4009DA2A7 /* Validation.swift in Sources */,
+				5E35A5A41B2A8F3A009DA2A7 /* SignupDemoViewController+Extensions.swift in Sources */,
+				5E35A5A81B2AA135009DA2A7 /* NetworkDemoViewController+Extensions.swift in Sources */,
+				5E35A5941B2A62FF009DA2A7 /* EmailValidationDemoViewController.swift in Sources */,
+				5E35A5A21B2A7C0D009DA2A7 /* API.swift in Sources */,
+				5E35A59E1B2A6E4A009DA2A7 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
