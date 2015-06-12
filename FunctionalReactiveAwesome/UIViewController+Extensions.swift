@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 
 extension UIViewController {
-    func display(title: String)(input: Observable<String>) -> Disposable {
+    func display(input: Observable<String>) -> Disposable {
         return input
             >- subscribe { [weak self] (event) -> Void in
                 self?.displayMessage(event.value, title: "Signed up!")

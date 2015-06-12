@@ -23,7 +23,7 @@ class SignupDemoViewController: UIViewController {
 
         signupButton.rx_tap
             >- signup
-            >- display("OK")
+            >- display
             >- disposeBag.addDisposable
     }
 }
