@@ -21,7 +21,7 @@ extension SignupDemoViewController {
                 return self?.signup ?? empty()
             }
             >- switchLatest
-            >- doOnNext { _ -> Void in
+            >- `do`{ event -> Void in
                 SVProgressHUD.dismiss()
                 UIApplication.sharedApplication().networkActivityIndicatorVisible = false
             }
