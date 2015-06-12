@@ -4,9 +4,9 @@ import RxSwift
 extension UIViewController {
     func display(title: String)(input: Observable<String>) -> Disposable {
         return input
-            >- subscribe({ [weak self] (event) -> Void in
+            >- subscribe { [weak self] (event) -> Void in
                 self?.displayMessage(event.value, title: "Signed up!")
-            })
+            }
     }
 
     func displayMessage(message: String?, title: String?) {

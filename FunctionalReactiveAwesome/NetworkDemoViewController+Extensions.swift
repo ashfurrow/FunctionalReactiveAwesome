@@ -9,13 +9,13 @@ extension NetworkDemoViewController {
         return defer {
             UIApplication.sharedApplication().networkActivityIndicatorVisible = true
             return api.request(.Friends)
-                >- doOnNext({ _ -> Void in
+                >- doOnNext { _ -> Void in
                     UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-                })
-                >- map({ response -> [String] in
+                }
+                >- map { response -> [String] in
                     let friends = NSString(data: response.data, encoding: NSUTF8StringEncoding)!.componentsSeparatedByString(",")
                     return friends as! [String]
-                })
+                }
         }
     }
 
