@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (1.2.2)
+  - Moya/Core (1.1.0):
+    - Alamofire (~> 1.2.0)
+  - Moya/ReactiveCore (1.1.0):
+    - Moya/Core
+  - Moya/RxSwift (1.1.0):
+    - Moya/ReactiveCore
+    - RxSwift (= 1.4)
+  - RxSwift (1.4)
+
+DEPENDENCIES:
+  - Moya/RxSwift
+  - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 11a6022f5089887d92ffb5a3014c97a0a915ab98
+  Moya: 5f4d8b0e59b6fcedf8bc75d25ecd35a17b9b6c4a
+  RxSwift: db92214e17226bf61c3649180286c8c7baf3712b
+
+COCOAPODS: 0.37.2

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543496DB2A44BEEF6A8B118E /* Pods_FunctionalReactiveAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E80CA99D474996B53B22881 /* Pods_FunctionalReactiveAwesome.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5E35A5711B2A5F52009DA2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5701B2A5F52009DA2A7 /* AppDelegate.swift */; };
 		5E35A5731B2A5F52009DA2A7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5721B2A5F52009DA2A7 /* MasterViewController.swift */; };
 		5E35A5751B2A5F52009DA2A7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35A5741B2A5F52009DA2A7 /* DetailViewController.swift */; };
@@ -38,6 +39,9 @@
 		5E35A5821B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalReactiveAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E35A5871B2A5F52009DA2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E35A5881B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalReactiveAwesomeTests.swift; sourceTree = "<group>"; };
+		7E80CA99D474996B53B22881 /* Pods_FunctionalReactiveAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalReactiveAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD91BEFEEFE75B914B6D271F /* Pods-FunctionalReactiveAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactiveAwesome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome.debug.xcconfig"; sourceTree = "<group>"; };
+		B8E8F877A228159A387EB52F /* Pods-FunctionalReactiveAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalReactiveAwesome.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543496DB2A44BEEF6A8B118E /* Pods_FunctionalReactiveAwesome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,8 @@
 				5E35A56D1B2A5F52009DA2A7 /* FunctionalReactiveAwesome */,
 				5E35A5851B2A5F52009DA2A7 /* FunctionalReactiveAwesomeTests */,
 				5E35A56C1B2A5F52009DA2A7 /* Products */,
+				71F9BA092A854D950ED61D0C /* Pods */,
+				655954E44DAE3D894BAB1CE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +122,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		655954E44DAE3D894BAB1CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E80CA99D474996B53B22881 /* Pods_FunctionalReactiveAwesome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71F9BA092A854D950ED61D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD91BEFEEFE75B914B6D271F /* Pods-FunctionalReactiveAwesome.debug.xcconfig */,
+				B8E8F877A228159A387EB52F /* Pods-FunctionalReactiveAwesome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E35A58C1B2A5F52009DA2A7 /* Build configuration list for PBXNativeTarget "FunctionalReactiveAwesome" */;
 			buildPhases = (
+				F0D0E6552EC6A333402B8018 /* Check Pods Manifest.lock */,
 				5E35A5671B2A5F52009DA2A7 /* Sources */,
 				5E35A5681B2A5F52009DA2A7 /* Frameworks */,
 				5E35A5691B2A5F52009DA2A7 /* Resources */,
+				EC1E177BAFE2CE2F867AE229 /* Embed Pods Frameworks */,
+				5AF0D61EF332B406BE323FAD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +236,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AF0D61EF332B406BE323FAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1E177BAFE2CE2F867AE229 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalReactiveAwesome/Pods-FunctionalReactiveAwesome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D0E6552EC6A333402B8018 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E35A5671B2A5F52009DA2A7 /* Sources */ = {
@@ -342,6 +417,7 @@
 		};
 		5E35A58D1B2A5F52009DA2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD91BEFEEFE75B914B6D271F /* Pods-FunctionalReactiveAwesome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunctionalReactiveAwesome/Info.plist;
@@ -352,6 +428,7 @@
 		};
 		5E35A58E1B2A5F52009DA2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E8F877A228159A387EB52F /* Pods-FunctionalReactiveAwesome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunctionalReactiveAwesome/Info.plist;
@@ -413,6 +490,7 @@
 				5E35A58E1B2A5F52009DA2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E35A58F1B2A5F52009DA2A7 /* Build configuration list for PBXNativeTarget "FunctionalReactiveAwesomeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +499,7 @@
 				5E35A5911B2A5F52009DA2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
