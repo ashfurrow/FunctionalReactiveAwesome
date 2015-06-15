@@ -1,6 +1,6 @@
 # FunctionalReactiveAwesome
 
-Here's my sample code from my AltConf 2015 talk, titled "Functional Reactive Awesome". It discusses the benefits of functional reactive programming in the context of Swift using a still-nascent FRP framework. 
+Here's my sample code from my AltConf 2015 talk, titled "[Functional Reactive Awesome](https://speakerdeck.com/ashfurrow/functional-reactive-awesome)". It discusses the benefits of functional reactive programming in the context of Swift using a still-nascent FRP framework. 
 
 The goal here is that you pay attention to the _ideas_ and not the implementation. Who cares about implementation – you can figure that out once you understand the importance of it. 
 
